@@ -1,0 +1,94 @@
+.intro {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.intro-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgb(8, 8, 8);
+  background: linear-gradient(0deg, rgba(8, 8, 8, 1) 30%, rgba(0, 0, 0, 0) 81%);
+}
+.intro-text {
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  h1 {
+    font-family: Libre Baskerville;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 96px;
+    padding: 20px 0;
+  }
+  p {
+    font-family: Nunito;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    width: 40%;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.intro-progress-bar {
+  width: 85%;
+  height: 50%;
+  margin: 0 auto;
+  .slick-arrow {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro-text {
+    width: 90%;
+    margin: 0 0 0 auto;
+    h1 {
+      font-size: 60px;
+      padding: 15px 0;
+    }
+    p {
+      font-size: 20px;
+      width: 70%;
+    }
+  }
+  .intro-progress-bar {
+    width: 90%;
+    margin: 0 0 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro-progress-bar {
+    width: 100%;
+    height: 60%;
+    margin: 0 0 0 10px;
+  }
+  .intro-text {
+    width: 90%;
+    height: 40%;
+    margin: 0 0 0 auto;
+    h1 {
+      font-size: 50px;
+      line-height: 50px;
+    }
+    p {
+      font-size: 16px;
+      width: 90%;
+      line-height: 24px;
+    }
+  }
+}

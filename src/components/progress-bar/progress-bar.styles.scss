@@ -1,0 +1,61 @@
+.progress-bar-container {
+  width: 250px;
+  height: 250px;
+  margin: 10px 17px;
+}
+
+@media screen and (max-height: 900px) {
+  .progress-bar-container {
+    width: 250px;
+    height: 250px;
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .progress-bar-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .progress-bar-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-height: 830px) {
+  .progress-bar-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .progress-bar-container {
+    width: 250px;
+    height: 250px;
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .progress-bar-container {
+    width: 230px;
+    height: 230px;
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .progress-bar-container {
+    width: 210px;
+    height: 210px;
+    margin: 0 5px;
+  }
+}

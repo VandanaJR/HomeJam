@@ -1,0 +1,89 @@
+.review-card {
+  width: 360px;
+  height: 248px;
+  background: linear-gradient(143.63deg, #276c73 5.43%, #5293e8 110.6%);
+  border-radius: 16px;
+  position: relative;
+  margin: 30px 20px;
+}
+
+.review-card-container {
+  border-radius: 16px;
+  border: 2px solid #e5af56;
+  overflow: hidden;
+  width: 360px;
+  height: 248px;
+  background-color: #0a0b1a;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
+
+.reviewer {
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.reviewer-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px;
+  .rev-name {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: white;
+  }
+  .rev-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .rev-country {
+    font-family: "Nunito", sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #e5c558;
+    padding: 0 10px;
+  }
+}
+
+.review-text {
+  color: white;
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
+  font-family: "Nunito", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .review-card {
+    width: 320px;
+  }
+  .review-card-container {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .review-card {
+    width: 290px;
+  }
+  .review-card-container {
+    width: 290px;
+  }
+}
